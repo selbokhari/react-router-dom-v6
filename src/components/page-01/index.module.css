@@ -1,0 +1,32 @@
+.customDev {
+    height: 100%;
+    margin: 16px;
+    padding: 16px;
+    border: 2px solid black;
+    display: block;
+}
+
+.paramsContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.paramsContainer hr {
+    flex-grow: 1;
+}
+
+.modification {
+    background-color: #eaea47;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 2px 2px 4px 2px #e5e5e5;
+    &:hover {
+        outline: 2px solid #eaea47;
+        background-color: transparent;
+    }
+}

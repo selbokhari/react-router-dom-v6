@@ -1,0 +1,31 @@
+.customDev {
+    height: 100%;
+    margin: 16px;
+    padding: 16px;
+    border: 2px solid black;
+    display: block;
+}
+
+.sousPageBar {
+    background-color: #deeaff;
+    color: rgb(255, 255, 255);
+    display: inline-flex;
+    justify-content: center;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.sousPageBar a {
+    padding: 8px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.sousPageBar a:global(.active) {
+    background-color: -webkit-link;
+    color: #ffeeee;
+}
+
+.sousPageBar a:active {
+    color: -webkit-link;
+}
